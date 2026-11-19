@@ -1,10 +1,25 @@
-# Laravel-Rules.Mdc-For-Cursor-Editor---Enterprise-Architecture-Standards
-A production-grade Laravel engineering rulebook focused on clean architecture, Domain-Driven Design, performance, security, testing, and long-term maintainability. Designed for teams and solo developers building scalable, enterprise-ready Laravel applications with clarity and discipline.
+# 📐 Laravel Rules for Cursor
 
-#RULES
----
+**Give Cursor a shared set of Laravel and PHP coding instructions.**
+
+This repository contains one customizable [`rule.mdc` file](rule.mdc).
+
+- 🗂️ **Organize code:** guidance for project structure and business logic.
+- ⚡ **Work with data:** database queries, Eloquent and performance.
+- ✅ **Check quality:** security, validation and Pest tests.
+
+Use it as a starting point for your own team conventions.
+These are opinionated instructions for the AI assistant, including custom formatting rules.
+They do not automatically enforce code quality.
+
+**Use it:** copy `rule.mdc` into your project’s `.cursor/rules/` folder, then edit it to fit your conventions.
+
+<details>
+<summary><strong>Read the full coding rules</strong></summary>
+
+```yaml
 alwaysApply: true
----
+```
 
 ## 1) Core Engineering Standards (Always)
 
@@ -495,3 +510,5 @@ Assert (when applicable):
 - Avoid packing multiple instructions into one line of code.
 - Always validate user input using Form Requests.
 - Auto-create or update tests whenever code is written/optimized.
+
+</details>
